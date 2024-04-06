@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App Project Practice</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/14097a442a.js" crossorigin="anonymous"></script>
+  <!-- link to bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe App</h1>
+            <form>
+                <input type="text" placeholder="search for Recipe" class="searchBox">
+                <button type="sumbit" class="searchBtn">search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>search Your Favourite Recipes......</h2>
+            </div>
+            <!-- Details -->
+            <div class="recipe-details">
+            <button type="button" class="recipe-close-btn"><i class="fas fa-times"></i></button>
+            
+            <div class="recipe-details-content"></div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
